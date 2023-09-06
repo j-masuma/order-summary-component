@@ -4,6 +4,7 @@
     padding: 0%;
     border: none;
     outline: none;
+    text-decoration: none;
 }
 body{
     width: 100%;
@@ -16,7 +17,12 @@ body{
     background-color: var(--pale-blue);
 }
 
-
+.main-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
 
 
 .attribution { 
