@@ -8,12 +8,13 @@ body{
     font-size: 15px;
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
     
 }
 main{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 20px;
     margin: 20vh;
     max-width: 20rem;
@@ -37,6 +38,7 @@ main img{
 }
 .plan{
     padding: 2rem;
+    font-weight: 700;
     
 }
 .plan-sec{
@@ -59,11 +61,15 @@ main img{
 }
 .plan-value p{
     margin: 1%;
+
 }
 .plan-value p:first-child {
     color: hsl(223, 47%, 23%);
     font-size: 15px;
     
+}
+.plan-value p:nth-child(2){
+    color:hsl(224, 23%, 55%);
 }
 .main-para{
     text-align: center;
@@ -71,10 +77,52 @@ main img{
     color:hsl(224, 23%, 55%);
     font-weight: 500;
 }
+.change-btn{
+    color:rgb(81, 81, 177);
+}
+.change-btn:hover{
+    cursor: pointer;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2rem;
+    margin-top: 0%;
+    padding:  1rem;
+    border: 2px solid rgb(6, 6, 165);
+    border-radius: 15px ;
+    background-color: rgb(6, 6, 165);
+    box-shadow: 0px 4px 6px rgb(81, 81, 177);
+    color: white;
+   font-weight: 900;
+}
+button:hover{
+    background-color: rgb(81, 81, 177);
+    border: 2px solid rgb(81, 81, 177);
+    cursor: pointer;
+}
+.cancel{
+    color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px){
+    body{
+        background-image: url("./images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+    }
+    
 }
