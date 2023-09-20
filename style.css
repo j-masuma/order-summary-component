@@ -3,26 +3,25 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 15px;
     background-image: url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
+    background-size: contain;
     background-color: hsl(225, 100%, 94%);
-    
 }
 main{
     display: flex;
     flex-direction: column;
-    /* border: 2px solid black; */
     border-radius: 20px;
     margin: 20vh;
-    max-width: 20rem;
+    width: 20rem;
     background-color: white;
 }
 main img{
     width: 100%;
-    max-width: 100%;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
