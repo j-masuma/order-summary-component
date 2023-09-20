@@ -108,6 +108,9 @@ button:hover{
     padding-bottom: 1rem;
     cursor: pointer;
 }
+footer{
+    padding-bottom: 1rem;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
